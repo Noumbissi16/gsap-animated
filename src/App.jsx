@@ -1,11 +1,13 @@
-import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+// import Navbar from "./components/Navbar";
 
 
 const App = () => {
- 
   return (
     <div className="relative min-h-screen w-screen overflow-x-hidden">
-      <Navbar />
+      {/* <Navbar /> */}
+      <Hero />
+      <section className="min-h-screen " />
     </div>
   );
 };
