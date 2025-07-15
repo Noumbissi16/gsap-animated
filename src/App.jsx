@@ -7,7 +7,7 @@ const App = () => {
     <div className="relative min-h-screen w-screen overflow-x-hidden">
       {/* <Navbar /> */}
       <Hero />
-      <section className="min-h-screen " />
+      <section className="h-screen " />
     </div>
   );
 };
