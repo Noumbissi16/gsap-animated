@@ -15,10 +15,11 @@ const About = () => {
       },
     });
 
-    clipAnimation.to(".mask-clip-path", {
+    clipAnimation.to(".mask-clip-path-about", {
       width: "100vw",
       height: "100vh",
       borderRadius: 0,
+      clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
     });
   });
 
@@ -44,7 +45,7 @@ const About = () => {
       </div>
 
       <div className="h-dvh w-screen" id="clip">
-        <div className="mask-clip-path about-image">
+        <div className="about-image mask-clip-path-about">
           <img
             src="/img/about.webp"
             alt="Background"

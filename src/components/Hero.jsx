@@ -117,7 +117,7 @@ function Hero() {
             src={getVideoSrc(currentIndex)}
             loop
             muted
-            autoPlay
+            // autoPlay
             id="next-video"
             className="absolute-center invisible absolute z-20 size-64 object-cover object-center"
             onLoadedData={handleVideoLoad}
@@ -127,7 +127,7 @@ function Hero() {
             src={getVideoSrc(
               currentIndex === totalVideos - 1 ? 1 : currentIndex
             )}
-            autoPlay
+            // autoPlay
             loop
             muted
             className="absolute left-0 top-0 size-full object-cover object-center"
@@ -139,7 +139,7 @@ function Hero() {
         </h1>
 
         <div className="absolute left-0 top-0 z-40 size-full">
-          <div className="mt-16 px-5 sm:px-10">
+          <div className="mt-24 px-5 sm:px-10">
             <h1 className="special-font hero-heading text-blue-100">
               redefi<b>n</b>e
             </h1>
@@ -155,7 +155,7 @@ function Hero() {
           </div>
         </div>
       </div>
-      <h1 className="absolute left-0 top-0 special-font hero-heading text-black mt-16 px-5 sm:px-10">
+      <h1 className="absolute left-0 top-0 special-font hero-heading text-black mt-24 px-5 sm:px-10">
         redefi<b>n</b>e
       </h1>
       <h1 className="special-font hero-heading absolute bottom-5 right-5  text-black">
